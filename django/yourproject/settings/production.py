@@ -4,7 +4,7 @@ from os import environ
 
 from .base import *
 
-ALLOWED_HOSTS = ['ec2-18-223-158-21.us-east-2.compute.amazonaws.com/','ec2-3-135-198-122.us-east-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-18-223-158-21.us-east-2.compute.amazonaws.com/','ec2-3-135-198-122.us-east-2.compute.amazonaws.com','aws-elb-demo-1267616547.us-east-2.elb.amazonaws.com']
 
 DATABASES = {
     'default': dj_database_url.config()
