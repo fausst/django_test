@@ -4,7 +4,7 @@ from os import environ
 
 from .base import *
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['%PUSH_ELB_HERE%']
 
 DATABASES = {
     'default': dj_database_url.config()
